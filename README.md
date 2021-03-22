@@ -26,8 +26,8 @@ Now, for the Carry out, it is A AND B OR Carry in (A XOR B), which is further re
 
 # Cascading Full Adders
 
-As of now, we described the construction of single bit adder circuit with logic gates. But what if we want to add two more than one bit numbers?
-
+As of now, we described the construction of single bit adder circuit with logic gates. But what if we want to add two more than one bit numbers?<br>
+<img src="https://github.com/Anshnrag02/Five-Bit-Adder/blob/main/images/Cascading-Adder-Circuits.png?raw=true">
 Here is the advantage of full adder circuit. We can cascade single bit full adder circuits and could add two multiple bit binary numbers. This type of cascaded full adder circuit is called as Ripple Carry Adder circuit.
 
 In case of Ripple Carry Adder circuit, Carry out of the each full adder is the Carry in of the next most significant adder circuit. As the Carry bit is ripple into the next stage, it is called as Ripple Carry Adder circuit. Carry bit is rippled from the left to right (LSB to MSB).
