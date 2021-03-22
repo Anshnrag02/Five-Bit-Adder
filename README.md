@@ -17,7 +17,8 @@ If we see the actual circuit inside the full adder, we will see two Half adders 
 
 # Truth Table 
 
-We can also express the full adder circuit construction in Boolean expression.
+We can also express the full adder circuit construction in Boolean expression.<br>
+<img src="https://github.com/Anshnrag02/Five-Bit-Adder/blob/main/OIP%20(4).jfif">
 
 For the case of SUM, We first XOR the A and B input then we again XOR the output with Carry in. So, the Sum is (A XOR B) XOR C.
 
