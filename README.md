@@ -18,12 +18,11 @@ If we see the actual circuit inside the full adder, we will see two Half adders 
 # Truth Table 
 
 We can also express the full adder circuit construction in Boolean expression.<br>
+
 <img src="https://github.com/Anshnrag02/Five-Bit-Adder/blob/main/OIP%20(4).jfif">
 
 For the case of SUM, We first XOR the A and B input then we again XOR the output with Carry in. So, the Sum is (A XOR B) XOR C.
-
 We can also express it with (A ⊕ B) ⊕ Carry in.
-
 Now, for the Carry out, it is A AND B OR Carry in (A XOR B), which is further represented by A.B + (A ⊕ B).
 
 # Cascading Full Adders
